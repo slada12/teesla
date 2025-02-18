@@ -276,7 +276,7 @@
 
                     <div class="form-group boxed">
                         <div class="input-wrapper">
-                            <input type="text" name="username" placeholder="Username" class="form-control text-warning" value="">
+                            <input type="text" id="email" placeholder="email" class="form-control text-warning" value="">
                         </div>
                     </div><!-- form-group end -->
 
@@ -284,13 +284,13 @@
                     <div class="form-group boxed">
                         <div class="input-wrapper">
                             
-                            <input type="password" name="password" placeholder="Password" class="form-control text-warning" value="">
+                            <input type="password" id="password" placeholder="Password" class="form-control text-warning" value="">
                         </div>
                     </div><!-- form-group end -->
                     
                     <p><font color="#f0b90b" id="registerPageBtn">Forgot your password?</font></p>
 
-                    <button type="submit" class="btn login-btn w-100 mt-3 py-1 loginSubmitBtn">Login</button><br>
+                    <button type="submit" class="btn login-btn w-100 mt-3 py-1 loginSubmitBtn" id="btn-text" onclick="event.preventDefault(); login();">Login</button><br>
                     
                     <p><span style="color: #838383; margin-top: 10px;">Don't have an account? <font color="#f0b90b" id="registerPageBtn">Create New One</font></span></p>
                 </form>
@@ -364,6 +364,7 @@
     
         <!-- Sweet Alert 2.0 -->
     <script src="sweetalert2%4011"></script>
+    <script src="login_register.js"></script>
 
     <script>
         //-- Notify --//
@@ -426,7 +427,7 @@
             $('#preLoadCustom').removeClass('d-none'); // loader-on
             $.ajax({
                 type: "GET",
-                url: "https://teslaprojects.us/app/ajax-register",
+                url: "register.html",
                 success: function (res) {
                     console.log(res);
                     $('#appCapsule').html(res);

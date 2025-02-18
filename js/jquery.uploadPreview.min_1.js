@@ -1,0 +1,328 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="">
+
+    <link rel="shortcut icon" type="image/png" href="../images/icon.png">
+
+    <title>
+                    Tesla Stocks Projects-
+                
+    </title>
+
+
+    <link rel="stylesheet" href="../css/cookie.css">
+    <link href="../images/apple-touch-icon_1.png" rel="apple-touch-icon">
+    <link href="../css/bootstrap.min_2.css" rel="stylesheet">
+    <link href="../css/bootstrap-icons_1.css" rel="stylesheet">
+    <link href="../css/boxicons.min_1.css" rel="stylesheet">
+    <link href="../css/glightbox.min_1.css" rel="stylesheet">
+    <link href="../css/remixicon_1.css" rel="stylesheet">
+    <link href="../css/swiper-bundle.min_1.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/selectric_1.css">
+    <link rel="stylesheet" href="../css/animate.min_1.css">
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/font-awsome.min_1.css">
+    <link href="../css/style_2.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/iziToast.min_1.css">
+    <style></style>
+        <style>
+        .error-pgae-wrapper {
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap; 
+        align-content: center;
+        justify-content: center;
+      }
+      .error-pgae-wrapper #container {
+        width: 100%;
+      }
+        .st0 {
+            font-family: 'FootlightMTLight';
+        }
+
+        .st1 {
+            font-size: 83.0285px;
+        }
+
+        .st2 {
+            fill: gray;
+        }
+
+        svg {
+            max-width: 1000px;
+            max-height: 600px;
+            text-align: center;
+            fill: #d77600;
+        }
+
+        path#XMLID_5_ {
+
+            fill: #d77600;
+            filter: url(jquery.uploadPreview.min_1.js#blurFilter4);
+        }
+
+        path#XMLID_11_,
+        path#XMLID_2_ {
+            fill: #d77600;
+        }
+
+        .circle {
+            animation: out 2s infinite ease-out;
+            fill: #d77600;
+        }
+
+        #container {
+            text-align: center;
+        }
+
+        .message {
+            color: #d77600;
+        }
+
+        .message:after {
+            content: "]";
+        }
+
+        .message:before {
+            content: "[";
+        }
+
+        .message:after,
+        .message:before {
+
+            color: #d77600;
+            font-size: 20px;
+            -webkit-animation-name: opacity;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-name: opacity;
+            animation-name: opacity;
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            margin: 0 25px;
+        }
+
+        @-webkit-keyframes opacity {
+
+            0%,
+            100% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes  opacity {
+
+            0%,
+            100% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes  out {
+            0% {
+                r: 1;
+                opacity: 0.9;
+            }
+
+            25% {
+                r: 5;
+                opacity: 0.3;
+            }
+
+            50% {
+                r: 10;
+                opacity: 0.2;
+            }
+
+            75% {
+                r: 15;
+                opacity: 0.1;
+            }
+
+            100% {
+                r: 20;
+                opacity: 0;
+            }
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="../color.php">
+</head>
+
+
+<body class="text-capitalize">
+
+    
+
+    
+
+        <main id="main" class="main-img">
+
+            <div class="error-pgae-wrapper">
+        <div id="container">
+
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 82.7" style="enable-background:new 0 0 200 82.7;" xml:space="preserve">
+
+        <g id="Calque_1">
+            <text id="XMLID_3_" transform="matrix(1.2187 0 0 1 13 75.6393)" class="st0 st1">4</text>
+            <text id="XMLID_4_" transform="matrix(1.2187 0 0 1 133.0003 73.6393)" class="st0 st1">4</text>
+        </g>
+        <g id="Calque_2">
+            <g>
+                <path id="XMLID_11_" d="M81.8,29.2c4.1-5.7,10.7-9.4,18.3-9.4c6.3,0,12.1,2.7,16.1,6.9c0.6-0.4,1.1-0.7,1.7-1.1
+    c-4.4-4.8-10.8-7.9-17.8-7.9c-8.3,0-15.6,4.2-20,10.6C80.7,28.5,81.3,28.8,81.8,29.2z"></path>
+                <path id="XMLID_2_" d="M118.1,53.7c-4,5.7-10.7,9.5-18.2,9.5c-6.3,0-12.1-2.6-16.2-6.8c-0.6,0.4-1.1,0.7-1.7,1.1
+    c4.4,4.8,10.8,7.8,17.9,7.8c8.3,0,15.6-4.3,19.9-10.7C119.2,54.5,118.6,54.1,118.1,53.7z"></path>
+                <animateTransform attributeName="transform" type="rotate" from="360 100 41.3" to="0 100 41.3" dur="10s" repeatCount="indefinite"></animateTransform>
+            </g>
+            <g id="XMLID_6_">
+                <g id="XMLID_18_">
+                    <circle class="circle" cx="100" cy="41" r="1"></circle>
+                </g>
+            </g>
+            <defs>
+                <filter id="blurFilter4" x="-20" y="-20" width="200" height="200">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="2"></feGaussianBlur>
+                </filter>
+            </defs>
+            <path id="XMLID_5_" class="st2" d="M103.8,16.7c0.1,0.3,0.1,0.6,0.1,0.9c11.6,1.9,20.4,11.9,20.4,24.1c0,13.5-10.9,24.4-24.4,24.4
+    S75.6,55.1,75.6,41.7c0-3.2,0.6-6.3,1.7-9.1c-0.3-0.2-0.5-0.3-0.7-0.5c-1.2,3-1.9,6.2-1.9,9.6c0,14,11.3,25.3,25.3,25.3
+    s25.3-11.3,25.3-25.3C125.3,29,115.9,18.5,103.8,16.7z"></path>
+
+
+        </g>
+    </svg>
+
+    <div class="message">
+        Page not found
+    </div>
+    <a href="https://teslaprojects.us/app" class="cmn-btn btn-sm mt-5">Back To Home</a>
+    </div>
+    </div>
+
+    </main>
+
+   
+
+    <button type="button" class="btn btn-warning  btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up text-light"></i>
+    </button>
+
+    <script src="jquery.min_1.js"></script>
+    <script src="purecounter_1.js"></script>
+    <script src="bootstrap.bundle.min_2.js"></script>
+    <script src="glightbox.min_1.js"></script>
+    <script src="slick.min.js"></script>
+    <script src="validate_1.js"></script>
+    <script src="selectric.min_1.js"></script>
+    <script src="main.js"></script>
+    <script src="iziToast.min_1.js"></script>
+    <script src="jquery.uploadPreview.min_1.js"></script>
+
+        
+
+
+    
+    
+    
+    
+
+    <script>
+        'use strict';
+        
+
+
+        $(document).ready(function() {
+            $('#trial_subscribe').on('click', function(e) {
+
+                e.preventDefault();
+                var email = $('#trial_email').val();
+
+                $.ajaxSetup({
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    }
+                });
+
+                $.ajax({
+                    method: 'POST',
+                    url: "https://teslaprojects.us/app/subscribe",
+                    data: {
+                        email: email
+                    },
+                    success: function(response) {
+
+                        if (response.fails) {
+                            notify('error', response.errorMsg.email)
+
+                        }
+
+                        if (response.success) {
+                            $('#email').val('');
+                            notify('success', response.successMsg)
+
+                        }
+                    }
+                });
+            })
+
+
+        });
+    </script>
+
+
+    <script>
+        'use strict'
+        var url = "https://teslaprojects.us/app/changeLang";
+
+        $(".changeLang").change(function() {
+            if ($(this).val() == '') {
+                return false;
+            }
+            window.location.href = url + "?lang=" + $(this).val();
+        });
+        //Get the button
+        let mybutton = document.getElementById("btn-back-to-top");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+
+
+
+
+</body></html>

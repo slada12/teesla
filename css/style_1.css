@@ -1,5 +1,5 @@
 /* reset css start */
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Poppins:wght@400;500&display=swap");
+@import url("css2.css");
 
 :root {
     --main-color: #cd3434;
@@ -3496,8 +3496,8 @@ cursor: context-menu !important;
     mask-repeat: no-repeat;
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
-    -webkit-mask-image: url(../../images/hex-shape.png);
-    mask-image: url(../../images/hex-shape.png);
+    -webkit-mask-image: url(../images/hex-shape.png);
+    mask-image: url(../images/hex-shape.png);
     -webkit-mask-position: center center;
     mask-position: center center;
     -webkit-mask-repeat: no-repeat;
@@ -4309,8 +4309,8 @@ cursor: context-menu !important;
     mask-repeat: no-repeat;
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
-    -webkit-mask-image: url(../../images/hex-shape.png);
-    mask-image: url(../../images/hex-shape.png);
+    -webkit-mask-image: url(../images/hex-shape.png);
+    mask-image: url(../images/hex-shape.png);
     -webkit-mask-position: center center;
     mask-position: center center;
     -webkit-mask-repeat: no-repeat;
@@ -4428,7 +4428,7 @@ cursor: context-menu !important;
     left: 31px;
     width: 32px;
     height: 32px;
-    background-image: url("../../images/quote.png");
+    background-image: url("../images/quote.png");
     background-size: 32px;
 }
 

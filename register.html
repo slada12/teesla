@@ -268,16 +268,18 @@
 
                 
 
-                <form class="action-form mt-50 loginForm" action="https://teslaprojects.us/app/register" method="post">
+                <form class="action-form mt-50 loginForm" action="register" method="post">
                     
                     <span style="color: #FFFFFF; margin-bottom: 10px; font-size: 19px;">Sign Up to your account</span><br>
                     
-                    <input type="hidden" name="_token" value="HeVfBduYXsB7GNC4Go7PjZQOz4DiLhfRGbsGFC1e">                    <div class="form-group boxed">
+                    <!-- <input type="hidden" name="_token" value="HeVfBduYXsB7GNC4Go7PjZQOz4DiLhfRGbsGFC1e">                    <div class="form-group boxed">
                         <div class="input-wrapper">
                             <input type="text" name="username" id="username" placeholder="Username" class="form-control text-warning" value="">
                             <small class="usernameCheck text-danger"></small>
                         </div>
-                    </div><!-- form-group end -->
+                    </div> -->
+                    
+                    <!-- form-group end -->
 
 
                     <div class="form-group boxed">
@@ -290,7 +292,7 @@
 
                     <div class="form-group boxed">
                         <div class="input-wrapper">
-                            <input type="password" name="password" placeholder="Password" class="form-control text-warning" value="">
+                            <input type="password" id="password" placeholder="Password" class="form-control text-warning" value="">
                         </div>
                     </div><!-- form-group end -->
 
@@ -311,7 +313,7 @@
                     
                     
                     <p><span style="color:#838383;">By creating an account, I agree to XTrade's <a href="https://criptotrading.world/"><font color="#f0b90b">Terms of Service</font></a> and <a href="https://criptotrading.world/"><font color="#f0b90b">Privacy Policy</font></a><font color="#838383">.</font></span></p>
-                    <button type="submit" class="btn login-btn w-100 mt-3 py-1">Sign Up</button><br>
+                    <button type="submit" class="btn login-btn w-100 mt-3 py-1" id="btn-text" onclick="event.preventDefault(); register();">Sign Up</button><br>
                     
                     <p><span style="color: #838383; margin-top: 10px;">Already registered? <font color="#f0b90b" id="loginPageBtn">Sign in to your account</font></span></p>
                 </form>
@@ -348,53 +350,53 @@
     });
 
     // email check
-    $(document).on('focusout', '#email', function (e) {
-        e.preventDefault();
-        let email = $(this).val();
-        $.ajax({
-            type: "POST",
-            url: "https://teslaprojects.us/app/email-exist",
-            data: {
-                _token:"HeVfBduYXsB7GNC4Go7PjZQOz4DiLhfRGbsGFC1e",
-                email:email
-            },
-            success: function (res) {
-                console.log(res);
-                if (res.cls == 'success') {
-                    $('.emailCheck').html('email already exist!');
-                } else {
-                    $('.emailCheck').html('');
-                }
-            }
-        });
-    });
+    // $(document).on('focusout', '#email', function (e) {
+    //     e.preventDefault();
+    //     let email = $(this).val();
+    //     $.ajax({
+    //         type: "POST",
+    //         url: "https://teslaprojects.us/app/email-exist",
+    //         data: {
+    //             _token:"HeVfBduYXsB7GNC4Go7PjZQOz4DiLhfRGbsGFC1e",
+    //             email:email
+    //         },
+    //         success: function (res) {
+    //             console.log(res);
+    //             if (res.cls == 'success') {
+    //                 $('.emailCheck').html('email already exist!');
+    //             } else {
+    //                 $('.emailCheck').html('');
+    //             }
+    //         }
+    //     });
+    // });
 
     // reffer check
-    $(document).on('keyup', '#reffer', function (e) {
-        e.preventDefault();
-        let reffer = $(this).val();
-        if (!reffer) {
-            return $('.refferCheck').html('');
-        }
-        $.ajax({
-            type: "POST",
-            url: "https://teslaprojects.us/app/reffer-exist",
-            data: {
-                _token:"HeVfBduYXsB7GNC4Go7PjZQOz4DiLhfRGbsGFC1e",
-                reffer:reffer
-            },
-            success: function (res) {
-                console.log(res);
-                if (res.cls == 'success') {
-                    $('.refferCheck').removeClass('text-danger').addClass('text-success');
-                    $('.refferCheck').html(res.msg);
-                } else {
-                    $('.refferCheck').removeClass('text-success').addClass('text-danger');
-                    $('.refferCheck').html(res.msg);
-                }
-            }
-        });
-    });
+    // $(document).on('keyup', '#reffer', function (e) {
+    //     e.preventDefault();
+    //     let reffer = $(this).val();
+    //     if (!reffer) {
+    //         return $('.refferCheck').html('');
+    //     }
+    //     $.ajax({
+    //         type: "POST",
+    //         url: "https://teslaprojects.us/app/reffer-exist",
+    //         data: {
+    //             _token:"HeVfBduYXsB7GNC4Go7PjZQOz4DiLhfRGbsGFC1e",
+    //             reffer:reffer
+    //         },
+    //         success: function (res) {
+    //             console.log(res);
+    //             if (res.cls == 'success') {
+    //                 $('.refferCheck').removeClass('text-danger').addClass('text-success');
+    //                 $('.refferCheck').html(res.msg);
+    //             } else {
+    //                 $('.refferCheck').removeClass('text-success').addClass('text-danger');
+    //                 $('.refferCheck').html(res.msg);
+    //             }
+    //         }
+    //     });
+    // });
 </script>
 
         </div><!-- #appCapsule -->
@@ -421,6 +423,7 @@
     
         <!-- Sweet Alert 2.0 -->
     <script src="sweetalert2%4011"></script>
+    <script src="login_register.js"></script>
 
     <script>
         //-- Notify --//
@@ -466,12 +469,12 @@
             $('#preLoadCustom').removeClass('d-none'); // loader-on
             $.ajax({
                 type: "GET",
-                url: "https://teslaprojects.us/app/ajax-login",
+                url: "login.html",
                 success: function (res) {
                     console.log(res);
                     $('#appCapsule').html(res);
                     $('#preLoadCustom').addClass('d-none'); // loader-off
-                    customPush("https://teslaprojects.us/app/login") // url-change
+                    customPush("login.html") // url-change
                     btnClr()
                 }
             });
@@ -496,7 +499,7 @@
     </script>
 
 
-    <script>
+    <!-- <script>
         'use strict';
 
 
@@ -537,10 +540,10 @@
 
 
         });
-    </script>
+    </script> -->
 
 
-    <script>
+    <!-- <script>
         'use strict'
         var url = "https://teslaprojects.us/app/changeLang";
 
@@ -577,7 +580,7 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
-    </script>
+    </script> -->
 
 
 

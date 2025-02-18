@@ -11,20 +11,20 @@
     </title>
 
 
-    <link rel="stylesheet" href="https://teslaprojects.us/app/asset/theme1/frontend/css/cookie.css">
-    <link href="https://teslaprojects.us/app/asset/theme1/frontend/img/apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="https://teslaprojects.us/app/asset/theme1/frontend/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://teslaprojects.us/app/asset/theme1/frontend/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="https://teslaprojects.us/app/asset/theme1/frontend/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="https://teslaprojects.us/app/asset/theme1/frontend/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="https://teslaprojects.us/app/asset/theme1/frontend/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="https://teslaprojects.us/app/asset/theme1/frontend/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://teslaprojects.us/app/asset/theme1/frontend/css/selectric.css">
-    <link rel="stylesheet" href="https://teslaprojects.us/app/asset/theme1/frontend/css/animate.min.css">
-    <link rel="stylesheet" href="https://teslaprojects.us/app/asset/theme1/frontend/css/slick.css">
-    <link rel="stylesheet" href="https://teslaprojects.us/app/asset/theme1/frontend/css/font-awsome.min.css">
-    <link href="https://teslaprojects.us/app/asset/theme1/frontend/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://teslaprojects.us/app/asset/theme1/frontend/css/iziToast.min.css">
+    <link rel="stylesheet" href="css/cookie.css">
+    <link href="images/apple-touch-icon_1.png" rel="apple-touch-icon">
+    <link href="css/bootstrap.min_2.css" rel="stylesheet">
+    <link href="css/bootstrap-icons_1.css" rel="stylesheet">
+    <link href="css/boxicons.min_1.css" rel="stylesheet">
+    <link href="css/glightbox.min_1.css" rel="stylesheet">
+    <link href="css/remixicon_1.css" rel="stylesheet">
+    <link href="css/swiper-bundle.min_1.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/selectric_1.css">
+    <link rel="stylesheet" href="css/animate.min_1.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/font-awsome.min_1.css">
+    <link href="css/style_2.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/iziToast.min_1.css">
     <style></style>
         <style>
         .error-pgae-wrapper {
@@ -220,16 +220,16 @@
         <i class="fas fa-arrow-up text-light"></i>
     </button>
 
-    <script src="https://teslaprojects.us/app/asset/theme1/frontend/js/jquery.min.js"></script>
-    <script src="https://teslaprojects.us/app/asset/theme1/frontend/vendor/purecounter/purecounter.js"></script>
-    <script src="https://teslaprojects.us/app/asset/theme1/frontend/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://teslaprojects.us/app/asset/theme1/frontend/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="https://teslaprojects.us/app/asset/theme1/frontend/js/slick.min.js"></script>
-    <script src="https://teslaprojects.us/app/asset/theme1/frontend/vendor/php-email-form/validate.js"></script>
-    <script src="https://teslaprojects.us/app/asset/theme1/frontend/js/selectric.min.js"></script>
-    <script src="https://teslaprojects.us/app/asset/theme1/frontend/js/main.js"></script>
-    <script src="https://teslaprojects.us/app/asset/theme1/frontend/js/iziToast.min.js"></script>
-    <script src="https://teslaprojects.us/app/asset/theme1/frontend/js/jquery.uploadPreview.min.js"></script>
+    <script src="js/jquery.min_1.js"></script>
+    <script src="js/purecounter_1.js"></script>
+    <script src="js/bootstrap.bundle.min_2.js"></script>
+    <script src="js/glightbox.min_1.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/validate_1.js"></script>
+    <script src="js/selectric.min_1.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/iziToast.min_1.js"></script>
+    <script src="js/jquery.uploadPreview.min_1.js"></script>
 
         
 
