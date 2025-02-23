@@ -85,5 +85,6 @@ async function register () {
   } catch (error) {
     document.getElementById('btn-text').textContent = 'Sign In';
     alert('Check Your Internet Connection');
+    console.log(error)
   }
 };
