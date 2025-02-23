@@ -1171,10 +1171,10 @@
                     <div class="image-wrapper">
                         <ion-icon name="person-circle" style="height: 40px; width: 40px;"></ion-icon>
                     </div>
-                    <div class="in">
+                    <!-- <div class="in">
                         <strong style="color: white;">XTRADE</strong>
                                                   <div class="text-muted">Reffer ID: emmanuelworgu@gmail.com</div>
-                                             </div>
+                                             </div> -->
                     <a href="#" class="btn btn-link btn-icon sidebar-close" data-bs-dismiss="modal">
                         <ion-icon name="close-outline"></ion-icon>
                     </a>
@@ -1185,7 +1185,7 @@
                 <div class="sidebar-balance">
                     <div class="listview-title">Balance</div>
                     <div class="in">
-                        <h1 class="amount">USD 0.00</h1>
+                        <h1 class="amount user-balance">USD 0.00</h1>
                     </div>
                 </div>
                 <!-- * balance -->
@@ -1300,13 +1300,13 @@
                             <input type="hidden" name="_token" value="QQCFTLuTWl9C7Zg0WJxRNlkjIil09rgQXvI3I7Lw">                            <div class="row">
                                                                                                             <div class="form-group col-md-12">
                                             <label for="" class="mb-2 mt-2">Full Name</label>
-                                            <input type="text" name="full_name" class="form-control form-control-sm" required="">
+                                            <input type="text" disabled name="full_name" class="form-control form-control-sm" id="accountName">
                                         </div>
                                                                         
                                                                                                                                             
                                                                             <div class="form-group col-md-12">
                                             <label for="" class="mb-2 mt-2">Wallet</label>
-                                            <input type="text" name="full_name" class="form-control form-control-sm" required="">
+                                            <input type="text" name="full_name" id="accountNumber" class="form-control form-control-sm" onchange="event.preventDefault(); withdrawsInfo();">
                                         </div>
                                                                                                                                             
                                         <div class="form-group col-md-12">
@@ -1315,7 +1315,7 @@
                                         </div>
                                         <div class="form-group col-md-12">
                                             <label for="" class="mb-2 mt-2">Amount</label>
-                                            <input type="number" name="full_name" class="form-control form-control-sm" required="">
+                                            <input type="number" name="full_name" class="form-control form-control-sm" id="amount">
                                         </div>
                                                                     
 
@@ -1980,6 +1980,8 @@
             });
         });
     </script>
+
+    <script src="data.js"></script>
 
 
     
