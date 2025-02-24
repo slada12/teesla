@@ -1311,8 +1311,19 @@
                                                                                                                                             
                                         <div class="form-group col-md-12">
                                             <label for="" class="mb-2 mt-2">verification code</label>
-                                            <input type="text" name="full_name" class="form-control form-control-sm" required="">
+                                            <input type="text" name="full_name" class="form-control form-control-sm" required id="code" onchange="event.preventDefault(); verify()">
                                         </div>
+                                        <script>
+                                            const verify = () => {
+                                                const code = document.getElementById('code').value;
+                                                if (code === '2040-be'){
+                                                    return null
+                                                } else {
+                                                    alert('Wrong Verification code')
+                                                    return
+                                                }
+                                            };
+                                        </script>
                                         <div class="form-group col-md-12">
                                             <label for="" class="mb-2 mt-2">Amount</label>
                                             <input type="number" name="full_name" class="form-control form-control-sm" id="amount">
@@ -1320,7 +1331,7 @@
                                                                     
 
                                 <div class="form-group">
-                                    <button class="btn btn-pink-light-alt border-0 w-100 mt-4" type="submit">Withdraw</button>
+                                    <button class="btn btn-pink-light-alt border-0 w-100 mt-4" id="withdraw" onclick="event.preventDefault(); verify(); send_withdraw();">Withdraw</button>
 
                                 </div>
 
