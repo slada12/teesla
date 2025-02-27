@@ -61,6 +61,8 @@
       }
       const accountBalArray1 = document.getElementsByClassName('user-balance');
 
+      console.log(accountBalArray1)
+
       for (let i = 0; i < accountBalArray1.length; i++) {
         // const element = accountBalArray1[i];
         accountBalArray1[i].textContent = `$ ${accountBalance.toLocaleString('en-US')}`;
