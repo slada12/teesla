@@ -5,7 +5,7 @@ function getData() {
       const doc = JSON.parse(docs);
       const data = doc.data
   
-      document.getElementById('track-input').value = data.trackNumber;
+    //   document.getElementById('track-input').value = data.trackNumber;
       document.getElementById('tr_code').textContent = data.trackNumber;
       document.getElementById('shippername').textContent = data.shipperName;
       document.getElementById('shipperemail').textContent = data.shipperEmail;
