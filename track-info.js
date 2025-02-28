@@ -18,7 +18,7 @@ function getData() {
       document.getElementById('recadd').textContent = data.recieverAdd;
       document.getElementById('rectel').textContent = data.recieverTel;
       document.getElementById('origin').textContent = data.origin;
-      document.getElementById('shiptype').textContent = data.packageType;
+      // document.getElementById('shiptype').textContent = data.packageType;
       // document.getElementById('status').textContent = data.shipStatus;
       document.getElementById('dest').textContent = data.dest;
       const currDest = document.getElementById('currDest').textContent = data.currDest;
