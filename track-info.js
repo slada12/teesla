@@ -21,7 +21,7 @@ function getData() {
       // document.getElementById('shiptype').textContent = data.packageType;
       // document.getElementById('status').textContent = data.shipStatus;
       document.getElementById('dest').textContent = data.dest;
-      const currDest = document.getElementById('currDest').textContent = data.currDest;
+      const currDest = data.currDest;
       // document.getElementById('shipment').textContent = data.shipType;
       // document.getElementById('weight').textContent = `${data.wght}Kg`;
       // document.getElementById('pay').textContent = data.payMode;
